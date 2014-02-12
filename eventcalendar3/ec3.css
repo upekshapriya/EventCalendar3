@@ -1,0 +1,318 @@
+/* EventCalendar. Copyright (C) 2005 2006, Alex Tingle.  $Revision: 263 $
+ * This file is licensed under the GNU GPL. See LICENSE file for details.
+ */
+
+/***
+ ***  Calendar
+ ***/
+
+#wp-calendar table {
+ width:100%;
+}
+
+#wp-calendar table caption {
+  text-align:center;
+}
+
+#wp-calendar #prev {
+  text-align:left;
+}
+
+#wp-calendar #next {
+  text-align:right;
+}
+
+#wp-calendar .ec3_eventday a {
+ color:#a00 !IMPORTANT;
+}
+
+#wp-calendar table td,
+#wp-calendar table th {
+  text-align:center;
+}
+
+#wp-calendar table td,
+#wp-calendar table td.pad:hover,
+#wp-calendar table.nav tr td {
+ padding:1px;
+ border:none;
+}
+
+#wp-calendar table td:hover,
+#wp-calendar table td.ec3_today {
+ padding:0px;
+ border:solid 1px #999;
+}
+
+/* The EC graphic. */
+.ec3_ec {
+ display:block;
+ float:right;
+ border:none;
+ background-repeat:no-repeat;
+ background-position:bottom right;
+ width:13px;
+ height:9px;
+}
+.ec3_ec span { display:none }
+
+
+/***
+ ***  Popup
+ ***/
+
+.ec3_popup {
+ margin:0 !IMPORTANT;
+ padding:0 !IMPORTANT;
+ border:none;
+ position:absolute;
+ border-collapse:collapse;
+ filter:alpha(opacity=87);
+ -moz-opacity:.87;
+ opacity:.87;
+ z-index:30000;
+}
+
+.ec3_popup td {
+ padding:0;
+}
+
+.ec3_popup table {
+ border:solid #999 1px;        /* popup border */
+ background-color:#eeb;        /* popup background colour */
+ font-size:x-small;            /* popup font size */
+ color:black;
+ text-align:left;
+}
+
+.ec3_popup table td {
+ padding:1.5px 3px 1.5px 3px;
+}
+
+#ec3_shadow0 div { width:8px; height:32px; }
+#ec3_shadow0 {
+ margin:0;
+ padding:0;
+ border:none;
+ width:8px;
+ background-repeat:no-repeat;
+ background-position:bottom right;
+ vertical-align:bottom;
+}
+
+#ec3_shadow1 {
+ margin:0;
+ padding:0;
+ border:none;
+ height:16px;
+ background-repeat:repeat-x;
+}
+
+#ec3_shadow2 div { width:8px; height:32px; }
+
+#ec3_shadow2 {
+ margin:0;
+ padding:0;
+ border:none;
+ width:8px;
+ background-repeat:no-repeat;
+ background-position:bottom left;
+ vertical-align:bottom;
+}
+
+/***
+ ***  Event list
+ ***/
+
+.ec3_list {
+ margin-left:-12px;
+ word-spacing:-1px;
+ letter-spacing:-0.2px;
+ color:#800;
+}
+
+.ec3_list li {
+ font-size:1em !IMPORTANT;
+}
+
+.ec3_list li:before {
+ content:"" !IMPORTANT;
+}
+
+/***
+ ***  Schedule
+ ***/
+
+table.ec3_schedule {
+ border-collapse:collapse;
+ margin:0.5ex 1ex 0.5ex 0;
+ border:solid 2px #800;
+ float:left;
+}
+
+table.ec3_schedule td {
+ padding:0 0.5ex 0 0.5ex;
+ color:#800;
+}
+
+td.ec3_start { text-align:right; }
+
+td.ec3_to    { text-align:center; }
+
+.ec3_schedule .ec3_past *  { text-decoration:line-through }
+
+/***
+ ***  Iconlet
+ ***/
+
+div.ec3_iconlet {
+ margin:0 1ex 0.2ex 0;
+ padding:0.3ex;
+ border:solid 2px #800;
+ float:left;
+ font-size:1em;
+ text-align:center;
+}
+
+div.ec3_past {
+ border-color:gray;
+ opacity:0.5;
+}
+
+div.ec3_iconlet * {
+ margin:0;
+ padding:0;
+ line-height:90%;
+}
+
+div.ec3_iconlet table {
+ border-collapse:collapse;
+}
+
+div.ec3_iconlet td {
+ padding-top:0.4ex;
+ padding-bottom:0.4ex;
+ text-align:center;
+ font-weight:bold;
+}
+
+div.ec3_iconlet tr.ec3_day td {
+ padding-top:0;
+ padding-bottom:0;
+ font-size:2.5em;
+ font-weight:bold;
+ width:2.5ex;
+}
+
+div.ec3_iconlet tr.ec3_time td {
+ font-size:0.75em;
+ font-weight:normal;
+}
+
+div.ec3_iconlet td.ec3_multi_start {
+ padding-right:0.2ex;
+}
+div.ec3_iconlet td.ec3_multi_end {
+ border-left:solid 1px #800;
+ padding-left:0.2ex;
+}
+div.ec3_past td {
+ border-color:gray;
+}
+
+
+/***
+ ***  Big Calendar
+ ***/
+
+
+div#ec3_big_cal {
+ border:solid 2px #eee;
+}
+
+#ec3_big_cal table {
+ border-collapse:collapse;
+ width:100%;
+ line-height:normal;
+}
+
+#ec3_big_cal table.nav {
+ width:50%;
+ margin-right:auto;
+ margin-left:auto;
+}
+
+#ec3_big_cal table.nav td {
+ border:none;
+ height:31px; 
+ text-align:center;
+ font-size:1.5em;
+ font-weight:bold;
+}
+
+#ec3_big_cal table caption {
+ font-size:1.5em;
+ font-weight:bold;
+}
+
+#ec3_big_cal table th {
+ text-align:center;
+ font-size:smaller;
+ font-weight:normal;
+}
+
+#ec3_big_cal table td {
+ margin:0;
+ padding:0;
+ width:14.2%;
+ vertical-align:top;
+ text-align:left;
+ border:solid 1px #999;
+}
+
+#ec3_big_cal table td.ec3_today {
+ background-color:#ffe;
+}
+
+td .ec3_daynum {
+ display:block;
+ margin:0;
+ margin-left:auto;
+ margin-right:auto;
+ padding:0;
+ padding-right:2px;
+ padding-bottom:1px;
+ text-align:right;
+ font-size:1em;
+}
+
+td.ec3_postday  a.ec3_daynum { color:#0066cc }
+td.ec3_eventday a.ec3_daynum { color:#a00 }
+             span.ec3_daynum { color:black }
+
+td.ec3_postday  a.ec3_daynum:hover { color:white; background-color:#0066cc }
+td.ec3_eventday a.ec3_daynum:hover { color:white; background-color:#a00 }
+
+#ec3_big_cal table td div {
+ min-height:5em;
+}
+
+#ec3_big_cal table td p {
+ font-size:smaller;
+ margin-top:0;
+ margin-bottom:0.1em;
+}
+
+#ec3_big_cal .ec3_post a {
+ color:#0066cc;
+}
+
+#ec3_big_cal .ec3_event a {
+ color:#a00;
+}
+
+#ec3_big_cal .pad {
+ border:none;
+ background-color:#eee;
+}
+

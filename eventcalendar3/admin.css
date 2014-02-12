@@ -1,0 +1,31 @@
+/* EventCalendar. Copyright (C) 2005, Alex Tingle.  $Revision: 133 $
+ * This file is licensed under the GNU GPL. See LICENSE file for details.
+ */
+
+#ec3_schedule_editor th {
+ text-align:left;
+}
+
+/* Admin panel */
+
+#ec3_schedule_editor div {
+	margin-right: 8px;
+}
+
+* html #ec3_schedule_editor .dbx-toggle-open, * html #ec3_schedule_editor .dbx-toggle-open {
+	padding-right: 8px;
+}
+
+#ec3_schedule_editor div.dbx-content {
+	margin-right: 0;
+	padding-right: 17px;
+}
+
+#ec3_schedule_editor table.editform {
+	border-collapse: collapse;
+}
+
+#ec3_schedule_editor tr.ec3_schedule_row {
+	border-bottom:solid 4px white;
+	background-color:#f8f8f8;
+}

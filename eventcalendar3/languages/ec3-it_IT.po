@@ -1,0 +1,302 @@
+# Event Calendar plug-in for WordPress.
+# Copyright (C) 2006, Alex Tingle
+# This file is distributed under the same license as the wpcal package.
+# Alex Tingle <alex DOT ec3pot AT firetree.net>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcal 3.1._pre15\n"
+"Report-Msgid-Bugs-To: eventcalendar@firetree.net\n"
+"POT-Creation-Date: 2009-01-23 11:26+0000\n"
+"PO-Revision-Date: 2008-11-08 11:54+0100\n"
+"Last-Translator: Lorenzo De Tomasi <lorenzo.detomasi@gmail.com>\n"
+"Language-Team: italian <nicola@ruggierobros.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"Plural-Forms: nplurals=2; plural=(n==1? 0 : 1);\n"
+
+#: admin.php:121 admin.php:459
+msgid "Event Editor"
+msgstr "Modifica eventi"
+
+#: admin.php:162
+msgid "Start"
+msgstr "Inizio"
+
+#: admin.php:163
+msgid "End"
+msgstr "Fine"
+
+#: admin.php:164
+msgid "All Day"
+msgstr "Tutto il giorno"
+
+#: admin.php:165
+msgid "Repeat"
+msgstr "Ripeti"
+
+#: admin.php:186
+msgid "Add a new event"
+msgstr "Aggiungi un nuovo evento"
+
+#: admin.php:232
+msgid "Delete this event"
+msgstr "Cancella questo evento"
+
+#: admin.php:364
+#, php-format
+msgid "Upgraded database to %1$s Version %2$s"
+msgstr "Aggiornamento effettuato al database di %1$s Versione %2$s"
+
+#: admin.php:371
+#, php-format
+msgid "Error upgrading database for %s plugin."
+msgstr ""
+"Si &egrave; verificato un errore durante l'aggiornamento del database del "
+"plugin %s"
+
+#: admin.php:383
+msgid "Table already existed"
+msgstr "Tabella gi&agrave; esistente"
+
+#: admin.php:388
+#, php-format
+msgid "Created table %s"
+msgstr ""
+
+#: admin.php:413
+#, php-format
+msgid "Added SEQUENCE column to table %s"
+msgstr ""
+
+#: admin.php:445 admin.php:501
+msgid "Event Calendar Options"
+msgstr "Opzioni di Event Calendar"
+
+#: admin.php:505
+msgid "Easter Egg"
+msgstr "Uovo di Pasqua"
+
+#: admin.php:507 upgrade-posts.php:119
+msgid "Upgrade Event Posts"
+msgstr "Aggiorna gli articoli evento"
+
+#: admin.php:514
+msgid "Event category"
+msgstr "Categoria eventi"
+
+#: admin.php:524
+msgid ""
+"Event posts are put into this category for you. Don't make this your default "
+"post category."
+msgstr ""
+"Questa categoria viene assegnata agli eventi automaticamente. Non "
+"utilizzarla come categoria di default."
+
+#: admin.php:530
+#, fuzzy
+msgid "Show times within post content"
+msgstr "Mostra il programma negli articoli"
+
+#: admin.php:534
+msgid "Hide Times"
+msgstr ""
+
+#: admin.php:537
+msgid "List Times"
+msgstr ""
+
+#: admin.php:540
+#, fuzzy
+msgid "Show Times as Icons"
+msgstr "Mostra i nomi dei giorni come"
+
+#: admin.php:547
+msgid "Show events as blog entries"
+msgstr "Mostra gli eventi come articoli del blog"
+
+#: admin.php:551
+msgid "Events are Normal Posts"
+msgstr "Gli eventi sono articoli normali"
+
+#: admin.php:554
+msgid "Keep Events Separate"
+msgstr "Mantieni gli eventi separati"
+
+#: admin.php:558
+msgid ""
+"Keep Events Separate: the Event Category page shows future events, in date "
+"order. Events do not appear on front page."
+msgstr ""
+"Mantieni gli eventi separati: la pagina con la categoria eventi mostra "
+"eventi futuri, in ordine cronologico. Gli eventi non compaiono nella pagina "
+"principale."
+
+#: admin.php:564 admin.php:576
+msgid "Timezone"
+msgstr "Fuso orario"
+
+#: admin.php:568
+msgid "unknown"
+msgstr "sconosciuto"
+
+#: admin.php:572
+msgid ""
+"You cannot change your timezone. Turn off PHP's 'safe mode' or upgrade to "
+"PHP5."
+msgstr ""
+"Non puoi cambiare il tuo fuso orario. Disabilita la modalit&agrave; 'safe "
+"mode' in PHP o aggiorna a PHP5."
+
+#: calendar-big.php:80 template-functions-new.php:135
+msgid "all day"
+msgstr "tutto il giorno"
+
+#: calendar-sidebar.php:139
+msgid "Subscribe to iCalendar."
+msgstr "Abbonati a iCalendar."
+
+#: template-functions-new.php:489 widget-list.php:30 widget-list.php:46
+#: K2/ec3_sidebar_module.php:71 K2/ec3_sidebar_module.php:77
+msgid "Upcoming Events"
+msgstr "Prossimi eventi"
+
+#: template-functions-new.php:555 widget-list.php:88
+msgid "No events."
+msgstr "Nessun evento."
+
+#: template-functions-new.php:593 template-functions-new.php:608
+#: template-functions-new.php:623
+msgid "to"
+msgstr "a"
+
+#: template-functions.php:29
+msgid "You must choose an event category."
+msgstr "Devi scegliere una categoria per gli eventi."
+
+#: template-functions.php:32 widget-list.php:147 K2/ec3_sidebar_module.php:64
+msgid "Go to Event Calendar Options"
+msgstr "Vai alle opzioni di Event Calendar"
+
+#: upgrade-posts.php:33
+#, php-format
+msgid "Post upgraded."
+msgid_plural "%d posts upgraded."
+msgstr[0] "Articolo aggiornato."
+msgstr[1] "%d articoli aggiornati."
+
+#: upgrade-posts.php:42
+msgid "Upgrade Event Posts (from version 3.0)"
+msgstr "Aggiorna gli articoli evento"
+
+#: widget-calendar.php:72
+msgid "Number of months"
+msgstr "Numero di mesi"
+
+#: widget-calendar.php:79
+msgid "Show day names as"
+msgstr "Mostra i nomi dei giorni come"
+
+#: widget-calendar.php:82
+msgid "Single Letter"
+msgstr "Lettera singola"
+
+#: widget-calendar.php:85
+msgid "3-Letter Abbreviation"
+msgstr "Abbreviazione a tre lettere"
+
+#: widget-calendar.php:88
+msgid "Full Day Name"
+msgstr "Nome del giorno per esteso"
+
+#: widget-calendar.php:95
+msgid ""
+"The navigation links are more usable when they are above the calendar, but "
+"you might prefer them below or hidden for aesthetic reasons."
+msgstr ""
+"I link per la navigazione sono pi&ugrave; utilizzabili quando sono sopra il "
+"calendario, ma puoi averli sotto o nasconderli per motivi estetici."
+
+#: widget-calendar.php:96
+msgid "Position of navigation links"
+msgstr "Posizione dei link di navigazione"
+
+#: widget-calendar.php:99
+msgid "Above Calendar"
+msgstr "Sopra il calendario"
+
+#: widget-calendar.php:102
+msgid "Below Calendar"
+msgstr "Sotto il calendario"
+
+#: widget-calendar.php:105
+msgid "Hidden"
+msgstr "Nascosto"
+
+#: widget-calendar.php:114
+msgid "Only Show Events"
+msgstr "Mostra solo gli eventi"
+
+#: widget-calendar.php:121
+#, php-format
+msgid "Show %s logo"
+msgstr "Mostra il logo di %s"
+
+#: widget-calendar.php:126
+msgid "You might want to disable popups if you use Nicetitles."
+msgstr ""
+"Probabilmente vuoi disabilitare i popups se usi una struttura personalizzata "
+"dei permalink"
+
+#: widget-calendar.php:129
+msgid "Popup event lists"
+msgstr "Popup lista eventi"
+
+#: widget-calendar.php:146 K2/ec3_sidebar_module.php:31
+msgid "Event Calendar"
+msgstr "Calendario eventi"
+
+#: widget-calendar.php:149
+msgid "Display upcoming events in a dynamic calendar."
+msgstr "Mostra i prossimi eventi in un calendario dinamico."
+
+#: widget-list.php:32
+msgid "Display upcoming events as a list."
+msgstr "Mostra i prossimi eventi come lista."
+
+#: widget-list.php:137
+msgid "Number of events"
+msgstr "Numero di eventi"
+
+#~ msgid "Show Schedule"
+#~ msgstr "Mostra il programma"
+
+#~ msgid "Hide Schedule"
+#~ msgstr "Nascondi il programma"
+
+#~ msgid "Show Event Calendar logo"
+#~ msgstr "Mostra il logo di Event Calendar"
+
+#~ msgid "Calendar Display"
+#~ msgstr "Display del calendario"
+
+#~ msgid "Show all categories in calendar"
+#~ msgstr "Mostra tutte le categorie nel calendario"
+
+#~ msgid "Show All Posts"
+#~ msgstr "Mostra tutti gli articoli"
+
+#~ msgid "Hide Logo"
+#~ msgstr "Nascondi il logo"
+
+#~ msgid "Show Popups"
+#~ msgstr "Mostra i popups"
+
+#~ msgid "Hide Popups"
+#~ msgstr "Nascondi i popups"
+
+#~ msgid "EXAMPLE SIDEBAR CODE:"
+#~ msgstr "ESEMPIO DI CODICE PER LA BARRA LATERALE:"

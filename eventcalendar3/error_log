@@ -1,0 +1,33 @@
+[02-Jan-2013 19:01:37] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[19-Jan-2013 18:27:43] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin.php on line 668
+[19-Jan-2013 18:27:55] PHP Parse error:  syntax error, unexpected T_CLONE, expecting T_STRING in /home/manchest/public_html/wp-content/plugins/event-calendar/clone.php on line 5
+[19-Jan-2013 18:28:18] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[19-Jan-2013 18:28:30] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin-mod.php on line 668
+[19-Jan-2013 18:28:43] PHP Fatal error:  Call to undefined function  get_bloginfo_rss() in /home/manchest/public_html/wp-content/plugins/event-calendar/feed-ical.php on line 60
+[19-Jan-2013 18:29:07] PHP Fatal error:  Call to undefined function  __() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-list.php on line 30
+[19-Jan-2013 18:29:53] PHP Fatal error:  Call to undefined function  get_bloginfo_rss() in /home/manchest/public_html/wp-content/plugins/event-calendar/feed-ical-mod.php on line 60
+[19-Jan-2013 18:30:37] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin-original.php on line 640
+[19-Jan-2013 18:31:19] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[19-Jan-2013 18:32:02] PHP Fatal error:  Call to undefined function  __() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-list-mod.php on line 30
+[19-Jan-2013 18:32:45] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-calendar.php on line 156
+[19-Jan-2013 18:35:33] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[06-Feb-2013 07:27:39] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[03-Mar-2013 20:33:11] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin.php on line 668
+[03-Mar-2013 20:56:45] PHP Parse error:  syntax error, unexpected T_CLONE, expecting T_STRING in /home/manchest/public_html/wp-content/plugins/event-calendar/clone.php on line 5
+[03-Mar-2013 21:09:24] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[03-Mar-2013 21:21:07] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin-mod.php on line 668
+[03-Mar-2013 21:24:26] PHP Fatal error:  Call to undefined function  get_bloginfo_rss() in /home/manchest/public_html/wp-content/plugins/event-calendar/feed-ical.php on line 60
+[03-Mar-2013 21:50:15] PHP Fatal error:  Call to undefined function  __() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-list.php on line 30
+[03-Mar-2013 22:29:02] PHP Fatal error:  Call to undefined function  get_bloginfo_rss() in /home/manchest/public_html/wp-content/plugins/event-calendar/feed-ical-mod.php on line 60
+[03-Mar-2013 22:38:27] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/admin-original.php on line 640
+[03-Mar-2013 23:21:58] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[03-Mar-2013 23:23:32] PHP Fatal error:  Call to undefined function  __() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-list-mod.php on line 30
+[03-Mar-2013 23:25:55] PHP Fatal error:  Call to undefined function  add_action() in /home/manchest/public_html/wp-content/plugins/event-calendar/widget-calendar.php on line 156
+[04-Mar-2013 00:53:37] PHP Fatal error:  Call to undefined function  load_plugin_textdomain() in /home/manchest/public_html/wp-content/plugins/event-calendar/options.php on line 80
+[28-Mar-2013 14:02:35] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[26-Apr-2013 06:52:17] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[29-Aug-2013 17:13:44] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[13-Sep-2013 00:42:55] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[27-Sep-2013 18:04:50] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[23-Dec-2013 05:08:41] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7
+[03-Jan-2014 09:02:31] PHP Fatal error:  Call to undefined function  get_option() in /home/manchest/public_html/wp-content/plugins/event-calendar/wp-head.php on line 7

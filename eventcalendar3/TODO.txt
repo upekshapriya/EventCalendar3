@@ -1,0 +1,110 @@
+TODO: Event Calendar 3.2
+========================
+
+ x Fix XML entity rendering on Safari (works on IE/Firefox)
+
+ o Include an example of how to make events show up differently from other
+   categories.
+
+ o Next/Prev links on single post page may link to an event post, even
+   in advanced mode, when such posts won't show up on the front page.
+   (Reported by Gerjan Boer)
+ 
+ o Events in calendar popup not listed in time order. Popup shows start time
+   every day for multi-day events.
+   (Reported by Craig Rothman)
+
+ o ...also fix popup formatting in new sidebar calendar.
+
+ x Allow filtering by tags.
+
+ o API for creating / updating events. Allows other plug-ins to manipulate
+   EC3's data.
+ 
+ x Allow for multiple instances of Event List widget.
+
+ x Look at the qTranslate patch.
+ 
+ o Enhance iconlets.
+
+Event List:
+
+ o Provide better example CSS. (Include it in ec3.css).
+
+FUTURE
+======
+
+ o Multiple event categories.
+   With colour-coding for each category.
+   Export each category as a separate iCalendar.
+
+ x Fix category count.
+   Templates that show the number of posts in each category will not
+   always show the correct number for the event category. In advanced mode,
+   expired events are not listed in the cat page, but they would be included in
+   this count.
+ 
+ o Allow import of a public iCalendar.
+
+ o Repeating events (create upcoming ones in a batch job, triggered every so
+   often?)
+ 
+ o Consider upcoming.org integration.
+
+ x Whole-page calendar.
+   Some people want a HUGE calendar, not in the sidebar. This doesn't
+   work well if they have a sidebar calendar as well, because the calendar
+   has a unique ID. Should probably allow a new id to be set in the
+   ec3_get_calendar() template function.
+   (See also, the next item...)
+ 
+ x New template function to list event titles inside the calendar table.
+   Like this: http://www.writingsalons.com/classes/index-12.php
+   Make sure that all the links work properly, even w/o JavaScript.
+
+ o "ZZamboni" wrote:
+   > I do have one feature request: I do most of my blog posting from Ecto
+   > and not from the WP post editor. I was wondering if it would be possible
+   > to set the event date by including a special tag in the text. Something
+   > like '[eventdate 2006-09-31]' for a full-day event, '[eventdate
+   > 2006-09-31 14:00:00 2006-09-31 16:00:00]' for a regular event, and that
+   > does not get displayed, but is used to set the appropriate fields in the
+   > event record. 
+
+ x 'Calendar-Page'-formatting template. Alternative to ec3_the_schedule().
+   Suggested by Karl Kolk.
+
+Event List:
+
+ x Option to show N days in advance, rather than N next events.
+
+ x Possibly: break the function into its component parts, and enable folks to
+   generate the contents with their own loop - and then provide an example loop
+   in get_events().
+
+ o "rumorhasit" wrote:
+   > while the event date/time does show up in the posts, it does not show up
+   > (correctly) in the sidebar.  The side bar should be display the dates
+   > the same way as the post (ie., starttime - finishitime).  Instead the
+   > side bar only shows a "starttime" and that's it.  Seems counter
+   > intuitive to have both, especially considering the more detailed event
+   > date/time is not associated with the sidebar for upcoming events.
+   That's a good idea. It should be straightforward to add start and end
+   dates to the template code for the ec3_get_events() function.
+
+ o customize display of listing (instead of just ul ) [heather]
+
+ o month headings/grouping (like it does with posts on same day) [heather]
+   http://wordpress.org/support/topic/46841
+
+= DONE = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+ ? Fix bug where event is also in another category -> multiple tooltips.
+   -> Can't reproduce this now.
+
+ x Deal with local timezones correctly.
+
+ x Document ?ec3_today ?ec3_days=N ?ec3_from=DATE ?ec3_before=DATE listing
+   options. Nobody knows about them!
+
+ x Promote ec3_get_events()
