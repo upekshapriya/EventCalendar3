@@ -82,23 +82,6 @@ class ec3_Options
     $this->myfiles=get_option('siteurl').'/wp-content/plugins/'.$mydir;
     $this->schedule=$table_prefix.$this->schedule; // table name
 
-    // wp_version < 2.0
-    if(preg_match('^1[.]',$wp_version))
-    {
-      $this->wp_user_nicename='user_nickname';
-      $this->wp_have_dbx=false;
-    }
-    // wp_version < 2.1
-    if(preg_match('^(1[.]|2[.]0)',$wp_version))
-    {
-      $this->wp_in_category='category-';
-    }
-    // wp_version < 2.3
-    if(preg_match('^(1[.]|2[.][012])',$wp_version))
-    {
-      $this->wp_have_categories=true;
-    }
-
     $this->read_event_category();
     $this->read_show_event_box();
     $this->read_advanced();
