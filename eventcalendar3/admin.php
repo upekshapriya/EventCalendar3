@@ -24,7 +24,7 @@ class ec3_Version
 {
   var $part; ///< Array of version parts.
 
-  function ec3_Version($str)
+  function __construct($str)
   {
     $s=preg_replace('/([-a-z]+)([0-9]+)/','\1.\2',$str);
     $v=explode('.',$s);

@@ -23,9 +23,9 @@ class ec3_ec3xml extends ec3_BasicCalendar
 {
   var $details = array();
 
-  function ec3_ec3xml($options=false,$datetime=0)
+  function __construct($options=false,$datetime=0)
   {
-    $this->ec3_BasicCalendar($options,$datetime);
+    ec3_BasicCalendar::__construct($options,$datetime);
   }
 
   function wrap_month($monthstr)

@@ -71,7 +71,7 @@ class ec3_Options
   /** Local timezone. */
   var $tz;
 
-  function ec3_Options()
+  function __construct()
   {
     global $table_prefix,$wp_version;
 
