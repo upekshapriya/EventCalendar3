@@ -4,9 +4,9 @@
  *  Otherwise it can be safely ignored. */
 function ec3_upgrade_posts()
 {
-  if(!function_exists('__ngettext'))
+  if(!function_exists('_ngettext'))
   {
-    function __ngettext($single,$plural,$number,$domain='default')
+    function _ngettext($single,$plural,$number,$domain='default')
     {
       if($number==1) return __($single,$domain);
       else           return __($plural,$domain);
@@ -18,7 +18,7 @@ function ec3_upgrade_posts()
   $ec3->advanced=false;
   $changed = ec3_upgrade_posts_apply();
 
-  $query =& new WP_Query();
+  $query = new WP_Query();
   $query->query( 'nopaging=1&cat=' . $ec3->event_category );
 
   $format = 'Y-m-d H:i:s';
@@ -30,7 +30,7 @@ function ec3_upgrade_posts()
 
    <div id="message" class="updated fade"><p><strong>
    <?php
-     $msg = __ngettext('Post upgraded.','%d posts upgraded.',$changed,'ec3');
+     $msg = _ngettext('Post upgraded.','%d posts upgraded.',$changed,'ec3');
      echo sprintf($msg,$changed);
    ?>
    </strong></p></div>

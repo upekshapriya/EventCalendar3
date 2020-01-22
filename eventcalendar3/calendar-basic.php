@@ -288,7 +288,7 @@ class ec3_BasicCalendar
 
       while(True)
       {
-        $this->dateobj = clone($curr_dateobj);
+        $this->dateobj = cloneDateObj($curr_dateobj);
         if($col>6)
         {
           $monthstr .= $this->wrap_week($weekstr,$curr_dateobj);
