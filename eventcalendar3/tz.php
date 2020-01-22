@@ -32,20 +32,6 @@ if(function_exists('date_default_timezone_get')):
     date_default_timezone_set($tz);
   }
 
-elseif(ini_get('safe_mode')):
-
-  // PHP4 safe mode.
-  function ec3_tz_push($tz)
-  {
-    return $tz;
-  }
-  function ec3_tz_pop($tz)
-  {
-    // do nothing
-  }
-  $ec3->tz_disabled=true;
-  $ec3->tz=getenv('TZ');
-
 else:
 
   // PHP4 safe mode OFF 
