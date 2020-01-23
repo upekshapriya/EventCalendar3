@@ -411,7 +411,7 @@ class ec3_EventIterator
   /** Parameters are andices into the $ec3->events array.
    *  'begin' points to the first event.
    *  'limit' is one higher than the last event. */
-  function ec3_EventIterator($begin=0, $limit=-1)
+  function __construct($begin=0, $limit=-1)
   {
     global $ec3;
     $this->_begin = $begin;

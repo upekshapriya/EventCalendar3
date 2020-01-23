@@ -23,9 +23,9 @@ require_once(dirname(__FILE__).'/multiwidget.php');
 
 class ec3_EventListWidget extends MultiWidget
 {
-  function ec3_EventListWidget()
+  function __construct()
   {
-    $this->MultiWidget(
+    MultiWidget::__construct(
         'ec3-event-list', // id_base
         __('Upcoming Events','ec3'), // name
         array('description' =>

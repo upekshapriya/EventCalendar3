@@ -22,10 +22,10 @@ require_once(dirname(__FILE__).'/calendar-sidebar.php');
 /** Renders a big calendar. */
 class ec3_BigCalendar extends ec3_SidebarCalendar
 {
-  function ec3_BigCalendar($options=false,$datetime=0)
+  function __construct($options=false,$datetime=0)
   {
     // Initialise the parent class.
-    $this->ec3_SidebarCalendar($options,$datetime);
+    ec3_SidebarCalendar::__construct($options,$datetime);
   }
   
   /** dayobj - ec3_CalendarDay object, may be empty. */

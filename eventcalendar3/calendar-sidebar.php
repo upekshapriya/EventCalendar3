@@ -34,7 +34,7 @@ class ec3_SidebarCalendar extends ec3_BasicCalendar
   var $disable_popups;
 
 
-  function ec3_SidebarCalendar($options=false,$datetime=false)
+  function __construct($options=false,$datetime=false)
   {
     // Set appearance options from the $options array, if it's been provided.
     // Otherwise set the defaults from the old, global WP options.
@@ -67,7 +67,7 @@ class ec3_SidebarCalendar extends ec3_BasicCalendar
     // END OPTIONS
 
     // Initialise the parent class.
-    $this->ec3_BasicCalendar($options,$datetime);
+    ec3_BasicCalendar::__construct($options,$datetime);
   }
 
 

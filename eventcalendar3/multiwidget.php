@@ -79,7 +79,7 @@ class MultiWidget
    *   - width
    *   - height
    */
-  function MultiWidget(
+  function __construct(
       $id_base,
       $name,
       $widget_options = array(),

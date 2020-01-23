@@ -41,7 +41,7 @@ class ec3_CalendarDay
   var $_events;
   var $_events_allday;
 
-  function ec3_CalendarDay($date)
+  function __construct($date)
   {
     $this->date = $date;
     $this->_posts = array();
@@ -129,7 +129,7 @@ class ec3_BasicCalendar
   var $dateobj;
 
   /** $month_date is a string of the form "YYYY-MM..." */
-  function ec3_BasicCalendar($options=false,$month_date=false)
+  function __construct($options=false,$month_date=false)
   {
     // Set options from the $options array, if it's been provided.
     // Otherwise set the defaults from the old, global WP options.
@@ -288,7 +288,7 @@ class ec3_BasicCalendar
 
       while(True)
       {
-        $this->dateobj = clone($curr_dateobj);
+        $this->dateobj = cloneDateObj($curr_dateobj);
         if($col>6)
         {
           $monthstr .= $this->wrap_week($weekstr,$curr_dateobj);

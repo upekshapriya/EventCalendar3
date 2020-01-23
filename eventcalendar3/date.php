@@ -28,7 +28,7 @@ class ec3_Date
   var $_unixdate      =0;
   var $_days_in_month =0;
 
-  function ec3_Date($year_num=0,$month_num=0,$day_num=0)
+  function __construct($year_num=0,$month_num=0,$day_num=0)
   {
     global $ec3;
     if($year_num>0)
